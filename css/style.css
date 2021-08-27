@@ -14,3 +14,12 @@ body {
   justify-content: center;
   height: 100vh;
 }
+.my-home img {
+  transition: all 0.5s;
+}
+.my-home img:hover {
+  width: 572px;
+  height: 252px;
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+}
