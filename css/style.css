@@ -2,11 +2,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--background);
-  color: var(--color);
 }
 :root {
   --background: #1c1c1c;
-  --color: #ffffff;
 }
 .my-home {
   display: flex;
