@@ -27,3 +27,20 @@ body {
 .card-shape {
   height: 100vh;
 }
+
+.card-shape .row div {
+  display: flex;
+  justify-content: center;
+}
+
+.card-shape .card-img-1 {
+  background-color: aliceblue;
+}
+
+.card-shape .card-img-2 {
+  background-color: #7a7878;
+}
+
+.card-shape .card-img-3 {
+  background-color: rgb(2, 92, 62);
+}
