@@ -28,19 +28,28 @@ body {
   height: 100vh;
 }
 
+.card-shape img {
+  cursor: pointer;
+  transition: all 0.7s;
+  opacity: 50%;
+}
+
+.card-shape img:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transform: matrix(1, 0.13, -0.05, 0.99, 0, 0);
+  opacity: 100%;
+}
+
 .card-shape .row div {
   display: flex;
   justify-content: center;
 }
 
-.card-shape .card-img-1 {
-  background-color: aliceblue;
+h1 {
+  opacity: 0%;
 }
-
-.card-shape .card-img-2 {
-  background-color: #7a7878;
-}
-
-.card-shape .card-img-3 {
-  background-color: rgb(2, 92, 62);
+h1:hover {
+  opacity: 100%;
 }
